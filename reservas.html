@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav >
+            <img class="logo" src="./img/logo100.png" alt="Imagen logo cafeteria "> 
+            <a href="./index.html">Home</a>   
+            <a href="./menu.html">Nuestro Menu</a>
+            <a href="./contactanos.html">Contactanos</a>
+        </nav>
+    </header>
+    <h2 class="titulo-formulario">Para reservar llene este formulario</h2>
+
+    <form id="formReserva" class="form-reserva">
+      <input type="text" id="nombre" placeholder="Nombre"  />
+      <input type="email" id="correo" placeholder="Correo electrónico"  />
+      <input type="datetime-local" id="fecha" />
+      <input type="number" id="personas" placeholder="Número de personas" />
+    </form>
+    
+    <button type="submit" id="btn_reservar" class="btn-reservar">Reservar</button>
+        
+    <div id="mensaje_formulario" class="mensaje_formulario"></div>
+    <footer>
+        <div class="footer-content">
+          <p>&copy; 2025 Café & Co. Todos los derechos reservados.</p>
+          <div class="socials">
+            <a href="./index.html">Facebook</a>
+            <a href="./index.html">Instagram</a>
+            <a href="./index.html">Twitter</a>
+          </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
